@@ -5,5 +5,5 @@ Musicana uses IBM's world class tone recognition api as well as twitter's handy 
 ```python
 Current_status: Asleep
 ```
-## DEMONSTRATION
+## Demonstration
 https://twitter.com/ZimehrsPA/with_replies
