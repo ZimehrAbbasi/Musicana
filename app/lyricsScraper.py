@@ -1,3 +1,8 @@
+##
+# @Author, Zimehr Abbasi
+# This module saves the Song objects for particular song urls
+##
+
 from bs4 import BeautifulSoup
 import requests
 import certifi
