@@ -1,3 +1,8 @@
+##
+# @Author, Zimehr Abbasi
+# This module extracts all the songs from the billboard top 100 chart periodically to update its database
+##
+
 from bs4 import BeautifulSoup
 import requests
 import certifi
