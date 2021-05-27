@@ -11,8 +11,8 @@ from ibm_watson import ToneAnalyzerV3
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 import time
 
-apikey = 'aiEwC0TZqi7ZYksP4Ez0qAzTPI5xHSpS8P0ghG3IPyPg'
-url = 'https://api.eu-gb.tone-analyzer.watson.cloud.ibm.com/instances/8f660912-fdc5-4d14-914a-e37d0141399a'
+apikey =
+url =
 
 authenticator = IAMAuthenticator(apikey)
 tone_analyzer = ToneAnalyzerV3(
@@ -21,11 +21,11 @@ tone_analyzer = ToneAnalyzerV3(
 )
 tone_analyzer.set_service_url(url)
 
-APIKey = 'zth0DrGbZUHup6doL0RCXS439'
-APIKeySecret = 'E8BQi1oOJar2DR18Fsc9LNhF7rFQtjp2J3bRXpQ3kPY4bkZcu1'
-AccessToken = '1271352921477677056-WD4FWbqzhI2dydQTwuC9iTnqXNDQ6N'
-AccessTokenSecret = 'Mi4SmOJNOiWoxvQi9UQO5pPyMSRpU7r6b1qIvM1Hd9urc'
-BEARER_TOKEN = r'AAAAAAAAAAAAAAAAAAAAAGCwMgEAAAAAjpv%2FZ303rQLEzwTmqaC0BcI8LTQ%3DHuSmEwcn8Gtl6cCEkO1qZs1xvOGkW7mUQulzAthHQq8WH4Ew3p'
+APIKey =
+APIKeySecret = 
+AccessToken = 
+AccessTokenSecret = 
+BEARER_TOKEN = 
 
 file = open('songs.json', 'r')
 try:
